@@ -1,0 +1,34 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records:
+  - - environment
+    - development
+    - 2020-09-15 10:29:54.888883000 Z
+    - 2020-09-15 10:29:54.888883000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - author
+  - genre
+  - price
+  - published_date
+  - created_at
+  - updated_at
+  records:
+  - - 12
+    - Stillness is the Key
+    - by Ryan Holiday
+    - Non-Fiction
+    - 24
+    - ''
+    - 2020-09-16 01:09:37.256862000 Z
+    - 2020-09-16 01:10:15.846088000 Z
