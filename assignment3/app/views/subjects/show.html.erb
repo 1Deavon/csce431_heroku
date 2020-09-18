@@ -1,0 +1,33 @@
+<%= link_to("<<Back to List", subjects_path,:class => 'back-link') %>
+
+<div class = "Subjects show">
+    <h2> Show Books </h2>
+    <table summary="Subject detail view">
+        <tr>
+            <th>title</th>
+            <td><%= @subject.id %> </tb>
+        </tr>
+
+        <tr>
+            <th>author</th>
+            <td><%= @subject.author %> </tb>
+        </tr>
+
+        <tr>
+            <th>genre</th>
+            <td><%= @subject.genre %> </tb>
+        </tr>
+
+        <tr>
+            <th>price</th>
+            <td><%= @subject.price %> </tb>
+        </tr>
+
+        <tr>
+            <th>published-date</th>
+             <td><%= @subject.published_date %> </tb>
+        </tr>
+
+
+    </table>
+</div>
